@@ -15,8 +15,9 @@ ul {
 
 header {
     display: inline-flex;
-    background-color: bisque;
+    background-color: #030100;
     height: fit-content;
+    direction: ltr;
 }
 nav ul{
     display: inline-flex;
@@ -29,7 +30,7 @@ nav ul li{
 }
 li a{
     text-decoration: none;
-    color: #7f6038;
+    color: #DBC8BA;
 }
 #hero img{
     width: 100%;
