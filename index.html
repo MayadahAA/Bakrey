@@ -1,0 +1,129 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="navbar px-2 sticky-top">
+      <a href="#hero">
+        <img
+        src="imges/logo.png"
+        alt="Bakery Shop Logo"
+        class=" "
+        width="130"
+       />
+      </a>
+      <nav class="navbar-nav">
+        <ul class="navbar list-unstyled">
+          <!-- <li class="nav-item px-2"><a href="#hero">Home</a></li> -->
+          <li class="nav-item px-2"><a href="#products">منتجاتنا</a></li>
+          <!-- <li class="nav-item px-2">
+            <a href="#testimonials">Testimonials</a>
+          </li> -->
+          <li class="nav-item px-2"><a href="#contact">تواصل معنا</a></li>
+        </ul>
+      </nav>
+      <!-- <button class="nav-item btn-dark btn fs-6">Place an Order</button> -->
+    </header>
+
+    <section id="hero">
+      <img src="imges/cover.png" alt="Bakery Shop Image" class="z-n1" />
+      <!-- <div class="centerd">
+        <h1>Welcome to the Bakery Shop</h1>
+        <p>Discover our delicious and freshly baked products</p>
+      </div> -->
+    </section>
+
+    <section id="products">
+      <h2 class="pb-5">منتجاتنا</h2>
+      <ul class="rounded-5">
+        <li class="card card-body">
+          <img src="imges/bread.png" alt="Product 1" class="card-img" />
+          <div class="card-title pt-3 fs-5 fw-semibold">الخبز</div>
+          <!-- <p class="card-text">Description of Product 1</p> -->
+          <button class="card-link btn btn-light">اعرف اكثر</button>
+        </li>
+        <li class="card card-body">
+          <img src="imges/cake.png" alt="Product 2" class="card-img" />
+          <div class="card-title pt-3 fs-5 fw-semibold">الكيك</div>
+          <!-- <p class="card-text">Description of Product 2</p> -->
+          <button class="card-link btn btn-light">اعرف اكثر</button>
+        </li>
+        <li class="card card-body">
+          <img src="imges/Pies.png" alt="Product 3" class="card-img" />
+          <div class="card-title pt-3 fs-5 fw-semibold ">الفطائر</div>
+          <!-- <p class="card-text">Description of Product 3</p> -->
+          <button class="card-link btn btn-light">اعرف اكثر</button>
+        </li>
+      </ul>
+    </section>
+    <!-- <section id="testimonials" class="m-5"> 
+      <h2>ماذا قالوا عنّا</h2>
+      <div class="carousel">
+        <div class="testimonial">
+          <img src="customer1.jpg" alt="Customer 1" />
+          <p>
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+            aliquam varius sem, eu tincidunt ipsum sodales vel."
+          </p>
+          <h4>Customer 1</h4>
+        </div>
+        <div class="testimonial">
+          <img src="customer2.jpg" alt="Customer 2" />
+          <p>
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+            aliquam varius sem, eu tincidunt ipsum sodales vel."
+          </p>
+          <h4>Customer 2</h4>
+        </div>
+        <div class="testimonial">
+          <img src="customer3.jpg" alt="Customer 3" />
+          <p>
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+            aliquam varius sem, eu tincidunt ipsum sodales vel."
+          </p>
+          <h4>Customer 3</h4>
+        </div>
+      </div>
+    </section> -->
+    <div>
+      <img src="imges/footer.jpg" alt="" width="100%" class="mt-5 ">
+    </div>
+    <hr class="m-5">
+    <section id="contact" class="align-content-center container col-md-8 col-sm-9">
+      <h2>تواصل معنا</h2>
+      <form class=" container">
+        <!-- <div class="input-group">
+          <label for="name" class="input-group-text col-2">الاسم</label>
+          <input type="text" id="name" name="name" required class="form-control text-end" />
+        </div> -->
+        <div class="mt-5">
+          <input placeholder="name@example.com" type="email" id="email" name="email" required class=" col-7 fs-5 text-end p-2 " />
+        <label for="email" class="col-4"><button type="submit" class="btn col-5 fs-5 fw-bolder">></button>
+</label>
+        </div>
+        <!-- <div class="input-group">
+          <label for="phone" class="input-group-text col-2">رقم الجوال</label>
+          <input type="tel" id="phone" name="phone" required class="form-control text-end"/>
+        </div>
+        <div class="input-group">
+          <label for="message" class="input-group-text col-2">الرسالة</label>
+          <textarea id="message" name="message" required class="form-control text-end"></textarea>
+        </div> -->
+      </form>
+    </section>
+
+    <footer>
+      <div class="social-media">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+      <p>© 2023 Bakery Shop. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
